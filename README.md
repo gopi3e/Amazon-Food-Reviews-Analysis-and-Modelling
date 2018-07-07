@@ -27,3 +27,6 @@ Attribute Information:
 
 #### Objective:
 Given a review, determine whether the review is positive or negative.
+
+Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization
+Build several ML models like KNN, Naive Bayes, Logistic Regression, etc.
