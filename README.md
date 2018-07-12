@@ -38,6 +38,31 @@ Attribute Information:
 4. Documented the concepts clearly
 5. Plotted TSNE plots for Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec
 
+#### 2 KNN
+1. Applied K-Nearest Neighbour on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
+2. Used both brute & kd-tree implementation of KNN 
+3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+
+#### 3 Naive Bayes
+
+#### 4 Logistic Regression
+1. Applied Logistic Regression on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
+2. Used both Grid Search & Randomized Search Cross Validation
+3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+4. Showed How Sparsity increases as we increase lambda or decrease C when L1 Regularizer is used for each featurization<br>
+5. Did pertubation test to check whether the features are multi-collinear or not
+
+###### Performance Table
+<img src="https://image.ibb.co/d8Ugbo/2_KNN_table.png" />
+
+###### Conclusions:
+1. Best Accuracy of 85.107% is achieved by Avg Word2Vec Featurization
+2. The kd-tree and brute implementation of KNN gives relatively similar results
+3. KNN is a very slow Algorithm compared to others takes alot of time to train
+4. KNN did not fair in terms of precision and F1-score. Overall KNN was not that good for this dataset
+<hr>
+#### 5 SVM
+
 
 
 
