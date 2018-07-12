@@ -43,9 +43,12 @@ Attribute Information:
 ### 2 KNN
 1. Applied K-Nearest Neighbour on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both brute & kd-tree implementation of KNN 
-3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix 
+using seaborne
+
 ###### Performance Table
 <img src="https://image.ibb.co/d8Ugbo/2_KNN_table.png" />
+
 ###### Conclusions:
 1. Best Accuracy of 85.107% is achieved by Avg Word2Vec Featurization
 2. The kd-tree and brute implementation of KNN gives relatively similar results
@@ -53,11 +56,13 @@ Attribute Information:
 4. KNN did not fair in terms of precision and F1-score. Overall KNN was not that good for this dataset
 <hr>
 
-#### 3 Naive Bayes
+### 3 Naive Bayes
 1. Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec
 2. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+
 ###### Performance Table
 <img src="https://image.ibb.co/b4dB98/3_Naive_Bayes.png" />
+
 ###### Conclusions:
 1. The best thing about Naive Bayes it much quicker than algorithms amazingly fast training times
 2. Best Models are Bi-Gram and Tf-IDF Model with accuracy of 88.63% and precision of 0.554
@@ -65,26 +70,30 @@ Attribute Information:
 4. Naive Bayes fails miserably with featurization of Word2Vec and tfidf Word2Vec as Word2Vec feature are completely dependent while Naive Bayes is based on assumption of featre independence
 <hr>
 
-#### 4 Logistic Regression
+### 4 Logistic Regression
 1. Applied Logistic Regression on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both Grid Search & Randomized Search Cross Validation
 3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
 4. Showed How Sparsity increases as we increase lambda or decrease C when L1 Regularizer is used for each featurization<br>
 5. Did pertubation test to check whether the features are multi-collinear or not
+
 ###### Performance Table
 <img src="https://image.ibb.co/gHTwP8/4_Logistic_Regression_Table.png" />
+
 ###### Conclusions:
 1. Features are multi-collinear i.e. they are co-related
 2. Unigram Featurization performs best with accuracy of 90.527 and F1-Score of 0.7
 3. Sparsity increases as we increase lambda or decrease C when L1 Regularizer is used
 <hr>
 
-#### 5 SVM
+### 5 SVM
 1. Applied SVM with rbf(radial basis function) kernel on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both Grid Search & Randomized Search Cross Validation 
 3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+
 ###### Performance Table
 <img src="https://image.ibb.co/mvrHz8/5_SVM.png" />
+
 ###### Conclusions:
 1. Support Vector Machine(SVM) gave the best result better than other algos close to Logistic Regression
 2. Tf-idf Featurization(C=1000,gamma=0.005) gave the best results with accuracy of 91.667% and F1-score of 0.733
