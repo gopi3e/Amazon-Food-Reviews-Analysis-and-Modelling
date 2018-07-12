@@ -31,6 +31,7 @@ Attribute Information:
 9. Summary - brief summary of the review
 10. Text - text of the review
 <hr>
+
 ### 1 Amazon Food Reviews EDA, NLP and Text Preprocessing
 1. Defined Problem Statement  
 2. Performed Exploratory Data Analysis(EDA) on Amazon Fine Food Reviews Dataset plotted Word Clouds, Distplots, Histograms, etc.
@@ -38,6 +39,7 @@ Attribute Information:
 4. Documented the concepts clearly
 5. Plotted TSNE plots for Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec
 <hr>
+
 ### 2 KNN
 1. Applied K-Nearest Neighbour on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both brute & kd-tree implementation of KNN 
@@ -50,6 +52,7 @@ Attribute Information:
 3. KNN is a very slow Algorithm compared to others takes alot of time to train
 4. KNN did not fair in terms of precision and F1-score. Overall KNN was not that good for this dataset
 <hr>
+
 #### 3 Naive Bayes
 1. Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec
 2. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
@@ -61,6 +64,7 @@ Attribute Information:
 3. Multinomial Naive Bayes does not work with negative values
 4. Naive Bayes fails miserably with featurization of Word2Vec and tfidf Word2Vec as Word2Vec feature are completely dependent while Naive Bayes is based on assumption of featre independence
 <hr>
+
 #### 4 Logistic Regression
 1. Applied Logistic Regression on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both Grid Search & Randomized Search Cross Validation
@@ -74,6 +78,7 @@ Attribute Information:
 2. Unigram Featurization performs best with accuracy of 90.527 and F1-Score of 0.7
 3. Sparsity increases as we increase lambda or decrease C when L1 Regularizer is used
 <hr>
+
 #### 5 SVM
 1. Applied SVM with rbf(radial basis function) kernel on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both Grid Search & Randomized Search Cross Validation 
