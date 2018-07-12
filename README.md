@@ -1,12 +1,12 @@
 # Amazon-Food-Reviews-Analysis-and-Modelling
 
 
-<b>Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization(BOW, tfidf, Word2Vec). Build several ML models like KNN, Naive Bayes, Logistic Regression, SVM, Random Forest, etc.<b>
+#### Performed Exploratory Data Analysis, Data Cleaning, Data Visualization and Text Featurization(BOW, tfidf, Word2Vec). Build several ML models like KNN, Naive Bayes, Logistic Regression, SVM, Random Forest, etc.
 
 #### Objective:
 Given a text review, determine the sentiment of the review whether its positive or negative.
 
-<b>Data Source<b>: https://www.kaggle.com/snap/amazon-fine-food-reviews
+Data Source: https://www.kaggle.com/snap/amazon-fine-food-reviews
 
 #### About Dataset
 
@@ -30,8 +30,7 @@ Attribute Information:
 8. Time - timestamp for the review
 9. Summary - brief summary of the review
 10. Text - text of the review
-
-<hr><hr>
+<hr>
 #### 1 Amazon Food Reviews EDA, NLP and Text Preprocessing
 1. Defined Problem Statement  
 2. Performed Exploratory Data Analysis(EDA) on Amazon Fine Food Reviews Dataset plotted Word Clouds, Distplots, Histograms, etc.
