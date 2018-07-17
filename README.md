@@ -8,6 +8,8 @@ Given a text review, determine the sentiment of the review whether its positive 
 
 Data Source: https://www.kaggle.com/snap/amazon-fine-food-reviews
 
+#### Notebooks in more readable form on Jupyter Nbviewer[https://nbviewer.jupyter.org/github/cyanamous/Amazon-Food-Reviews-Analysis-and-Modelling/tree/master/]
+
 #### About Dataset
 
 The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.<br>
