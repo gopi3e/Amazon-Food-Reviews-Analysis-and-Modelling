@@ -94,6 +94,7 @@ using seaborne
 1. Applied SVM with rbf(radial basis function) kernel on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Used both Grid Search & Randomized Search Cross Validation 
 3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+4. Evaluated SGDClassifier on the best resulting featurization
 
 ###### Performance Table
 <img src="https://image.ibb.co/mvrHz8/5_SVM.png" />
@@ -102,6 +103,7 @@ using seaborne
 1. Support Vector Machine(SVM) gave the best result better than other algos close to Logistic Regression
 2. Tf-idf Featurization(C=1000,gamma=0.005) gave the best results with accuracy of 91.667% and F1-score of 0.733
 3. SVM with RBF kernel the separating plane exists in another space - a result of kernel transformation of the original space. Its coefficients are not directly related to the input space. Hence we can't get the feature importance
+4. Also tried SGDClassifier with the best result i.e. with tfidf featurization it was very quick and gave around same score in just seconds with accuracy of 91.04% and F1-score of 0.734 with (alpha=1e-05,penalty='l1')
 <hr>
 
 ### 6 Decision Trees
