@@ -59,17 +59,18 @@ using seaborne
 <hr>
 
 ### 3 Naive Bayes
-1. Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec
+1. Applied Naive Bayes using Bernoulli NB and Multinomial NB on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
 2. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+3. Printed Top 25 Important Features for both Negative and Positive Reviews
 
 ###### Performance Table
-<img src="https://image.ibb.co/b4dB98/3_Naive_Bayes.png" />
+<img src="https://image.ibb.co/mYmrZJ/3_Naive_Bayes.png" />
 
 ###### Conclusions:
-1. The best thing about Naive Bayes it much quicker than algorithms amazingly fast training times
-2. Best Models are Bi-Gram and Tf-IDF Model with accuracy of 88.63% and precision of 0.554
+1. The best thing about Naive Bayes it much quicker than algorithms amazingly fast training times<br>
+2. Best Models are Bi-Gram with accuracy of 89.53% and precision of 0.594
 3. Multinomial Naive Bayes does not work with negative values
-4. Naive Bayes fails miserably with featurization of Word2Vec and tfidf Word2Vec as Word2Vec feature are completely dependent while Naive Bayes is based on assumption of featre independence
+4. Naive Bayes fails miserably with featurization of Word2Vec and tfidf Word2Vec as Word2Vec feature are completely dependent while Naive Bayes is based on assumption of feature independence
 <hr>
 
 ### 4 Logistic Regression
@@ -80,12 +81,13 @@ using seaborne
 5. Did pertubation test to check whether the features are multi-collinear or not
 
 ###### Performance Table
-<img src="https://image.ibb.co/gHTwP8/4_Logistic_Regression_Table.png" />
+<img src="https://image.ibb.co/hbdg4J/4_Logistic_Regression_Table.png" />
 
 ###### Conclusions:
 1. Features are multi-collinear i.e. they are co-related
-2. Unigram Featurization performs best with accuracy of 90.527 and F1-Score of 0.7
+2. Bigram Featurization performs best with accuracy of 93.704 and F1-Score of 0.808
 3. Sparsity increases as we increase lambda or decrease C when L1 Regularizer is used
+4. Algorithms like SVM & Logistic Regression performed best on this data
 <hr>
 
 ### 5 SVM
