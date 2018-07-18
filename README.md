@@ -104,4 +104,19 @@ using seaborne
 3. SVM with RBF kernel the separating plane exists in another space - a result of kernel transformation of the original space. Its coefficients are not directly related to the input space. Hence we can't get the feature importance
 <hr>
 
+### 6 Decision Trees
+1. Applied Decision Trees on Different Featurization of Data viz. BOW(uni-gram,bi-gram), tfidf, Avg-Word2Vec(using Word2Vec model pretrained on Google News) and tf-idf-Word2Vec 
+2. Used both Grid Search with random 30 points for getting the best max_depth 
+3. Evaluated the test data on various performance metrics like accuracy, f1-score, precision, recall,etc. also plotted Confusion matrix using seaborne
+4. Plotted feature importance recieved from the decision tree classifier
+
+###### Performance Table
+<img src="https://image.ibb.co/kokTjJ/6_Decision_Trees.png" />
+
+###### Conclusions:
+1. Decision Trees on Uni-gram, bi-gram and tfidf would have taken forever if had taken all the dimensions as it had huge dimension and hence tried with max 300 as max_depth
+2. Bi-gram Featurization(max_depth=73) gave the best results with accuracy of 85.11% and F1-score of 0.513
+3. Plotted feature importance for Uni-gram, bi-gram and tfidf but not for Avg Word2Vec and Tfidf Avg Word2Vec as Word2Vec featurizations are highly co-related hence can't directly get the feature importance
+<hr>
+
 
